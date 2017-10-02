@@ -1,23 +1,125 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rosco1010</title>
+	<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
 
-<div class="home">
+	<div class="header">
+		<div class="container">
+			<ul class="nav_left">
+				<a href="index.html">
+					<li>Home</li>
+				</a>
+			</ul>
+			<ul class="nav_right">
+				<a href="pages/about.html">
+					<li>About</li>
+				</a>
+				<a href="pages/games.html">
+					<li>Games</li>
+				</a>
+				<a href="pages/contact.html">
+					<li>Contact</li>
+				</a>
+			</ul>
+		</div>
+	</div>
 
-  <h1 class="page-heading">Posts</h1>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="main">
+				<h1>ROSCO1010</h1>
+				<p>Learning to make games so I can create the oasis...</p>
+			</div>
+		</div>
+	</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<div class="supporting">
+		<div class="container">
+			<div class="col">
+				<a href="gamesRoot/tennis/tennis.html">
+					<img class="thumbnail" src="img/tennis.png" />
+				</a>
+				<h2>TENNIS<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/brickBreak/brickBreak.html">
+					<img class="thumbnail" src="img/brickBreak.png" />
+				</a>
+				<h2>BRICK BREAK<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/race/race.html">
+					<img class="thumbnail" src="img/race.png" />
+				</a>
+				<h2>RACE<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/warriorLegend/warriorLegend.html">
+					<img class="thumbnail" src="img/warriorLegend.png" />
+				</a>
+				<h2>WARRIOR LEGEND<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/spaceBattle/spaceBattle.html">
+					<img class="thumbnail" src="img/spaceBattle.png" />
+				</a>
+				<h2>SPACE BATTLE<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/rtsDots/rtsDots.html">
+					<img class="thumbnail" src="img/rtsDots.png" />
+				</a>
+				<h2>RTS DOTS<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/tennisMania/tennisMania.html">
+					<img class="thumbnail" src="img/tennisMania.png" />
+				</a>
+				<h2>TENNIS MANIA<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/brickBreakanoid/brickBreakanoid.html">
+					<img class="thumbnail" src="img/brickBreakanoid.png" />
+				</a>
+				<h2>BRICK BREAKANOID<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/turboRacing/turboRacing.html">
+					<img class="thumbnail" src="img/turboRacing.png" />
+				</a>
+				<h2>TURBO RACING<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/audioTesting/audioTesting.html">
+					<img src="http://via.placeholder.com/350x350" />
+				</a>
+				<h2>AUDIO TESTING<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/textEngine/textEngine.html">
+					<img class="thumbnail" src="img/textEngine.png" />
+				</a>
+				<h2>TEXT ENGINE<h2>
+			</div>
+			<div class="col">
+				<a href="gamesRoot/webGLTesting/webGLTesting.html">
+					<img src="http://via.placeholder.com/350x350" />
+				</a>
+				<h2>WEBGL TESTING<h2>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div class="footer">
+		<div class="container">
+			<p>Last updated: 09/10/2017</p>
+		</div>
+	</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</body>
+</html>
