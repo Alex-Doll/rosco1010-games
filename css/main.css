@@ -1,0 +1,140 @@
+/* General Styling */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	/*border: 2px dotted yellow;*/ /* Uncomment to see containers */
+	max-width: 1920;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+ul > a > li {
+	display: inline;
+	text-decoration: none;
+}
+
+.thumbnail {
+	height: 350px;
+	width: 350px;
+}
+
+
+/* Header */
+.header {
+	background-color: #333333;
+}
+
+.header ul {
+	display: inline-block;
+}
+
+.nav_right {
+	float: right;
+}
+
+.nav_left, .nav_right {
+	margin: 0;
+	padding: 20px 0;
+}
+
+.nav_left li, .nav_right li {
+	color: #ffffff;
+	font-family: 'Saira', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 550px;
+	background-image: url("../img/tech_1920.jpg");
+	background-position: center;
+}
+
+.main {
+	position: relative;
+	top: 90px;
+	text-align: center;
+}
+
+.main h1 {
+	color: #fff;
+	font-family: 'Saira', sans-serif;
+	font-weight: 600;
+	font-size: 64px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+
+.main p {
+	color: #fff;
+	font-family: 'Saira', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+
+/* Supporting */
+.supporting {
+	background-color: #8a8a8a;
+	padding-bottom: 80px;
+}
+
+.supporting .col {
+	padding-top: 80px;
+	float: left;
+	width: 33%;
+	font-family: 'Saira', sans-serif;
+	text-align: center;
+}
+
+.supporting h2 {
+	font-weight: 600;
+  	font-size: 32px;
+  	text-transform: uppercase;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/* Footer */
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0;
+}
+
+.footer p {
+	font-family: 'Saira', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+/* Pages */
+.page_content {
+	background-color: #8a8a8a;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
