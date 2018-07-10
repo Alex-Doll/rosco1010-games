@@ -11,40 +11,9 @@ html, body {
 	padding: 0 10px;
 }
 
-ul > a > li {
-	display: inline;
-	text-decoration: none;
-}
-
 .thumbnail {
 	height: 350px;
 	width: 350px;
-}
-
-
-/* Header */
-.header {
-	background-color: #333333;
-}
-
-.header ul {
-	display: inline-block;
-}
-
-.nav_right {
-	float: right;
-}
-
-.nav_left, .nav_right {
-	margin: 0;
-	padding: 20px 0;
-}
-
-.nav_left li, .nav_right li {
-	color: #ffffff;
-	font-family: 'Saira', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
 }
 
 
