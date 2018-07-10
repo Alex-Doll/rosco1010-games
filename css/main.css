@@ -73,20 +73,6 @@ html, body {
 }
 
 
-/* Footer */
-.footer {
-	background-color: #333;
-	color: #fff;
-	padding: 30px 0;
-}
-
-.footer p {
-	font-family: 'Saira', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
-}
-
-
 /* Pages */
 .page_content {
 	background-color: #8a8a8a;
