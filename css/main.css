@@ -2,6 +2,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	background-color: #8a8a8a;
 }
 
 .container {
@@ -11,10 +12,7 @@ html, body {
 	padding: 0 10px;
 }
 
-.thumbnail {
-	height: 350px;
-	width: 350px;
-}
+
 
 
 /* Jumbotron */

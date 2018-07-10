@@ -1,0 +1,12 @@
+.grid-container {
+    background-color: #8a8a8a;
+    padding: 80px 10px;
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

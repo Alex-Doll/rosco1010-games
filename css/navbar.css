@@ -12,7 +12,7 @@ header {
 header > nav {
     flex-grow: 1;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1260px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
