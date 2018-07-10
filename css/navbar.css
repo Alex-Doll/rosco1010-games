@@ -22,7 +22,7 @@ header > nav {
 .nav-right a {
     color: white;
     text-decoration: none;
-    font-family: Saira;
+    font-family: "Saira", sans-serif;
     padding: 10px 5px;
 }
 
